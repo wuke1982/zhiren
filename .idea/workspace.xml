@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ce319b5-527b-4071-834d-25fa26fbcdaf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/ZhirenApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -62,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#875#876#0" expanded="true" />
@@ -76,28 +72,25 @@
         <entry file="file://$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractLogger.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/spi/AbstractLogger.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhiren-business/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="1069" selection-start-line="1069" selection-end-line="1069" />
-              <folding>
-                <element signature="e#46741#46742#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -120,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,11 +147,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zhiren-web/pom.xml" />
         <option value="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/ZhirenApplication.java" />
-        <option value="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java" />
         <option value="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java" />
         <option value="$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/Service/DemoService.java" />
         <option value="$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java" />
         <option value="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java" />
       </list>
     </option>
   </component>
@@ -197,76 +190,6 @@
             <path>
               <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
@@ -415,12 +338,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522570429641</updated>
-      <workItem from="1522570433519" duration="4967000" />
+      <workItem from="1522570433519" duration="5280000" />
     </task>
+    <task id="LOCAL-00001" summary="demo">
+      <created>1522589593181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522589593181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4967000" />
+    <option name="totallyTimeSpent" value="5280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -466,6 +397,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -473,11 +408,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zhiren-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhiren-business/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8" />
       </provider>
@@ -537,20 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/ZhirenApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -562,7 +482,7 @@
     <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#875#876#0" expanded="true" />
@@ -574,14 +494,31 @@
     <entry file="file://$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhiren-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +574,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>zhirenweb</last-edited>
+          <last-edited>zhirenbusiness</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
