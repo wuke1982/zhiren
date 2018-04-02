@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ce319b5-527b-4071-834d-25fa26fbcdaf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhiren-business/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/mapper/DemoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/model/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhiren-business/src/main/resources/mapping/DemoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-business/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-business/src/test/java/zhiren/serviceImpl/DemoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-business/src/test/java/zhiren/serviceImpl/DemoServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/ZhirenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/ZhirenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhiren-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zhiren-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhiren-web/src/main/java/zhiren/web/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
@@ -98,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DemoService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -138,6 +131,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Solley" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -197,58 +195,6 @@
             <path>
               <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhiren" type="462c0819:PsiDirectoryNode" />
-              <item name="zhiren-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhiren" type="b2602c69:ProjectViewProjectNode" />
@@ -639,7 +585,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522570429641</updated>
-      <workItem from="1522570433519" duration="12634000" />
+      <workItem from="1522570433519" duration="12883000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1522589593181</created>
@@ -669,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522592543521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add mybaits">
+      <created>1522685146122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522685146122</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -705,11 +658,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12634000" />
+    <option name="totallyTimeSpent" value="12883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" weight="0.30957446" />
@@ -728,11 +680,11 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.30957446" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.30957446" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19479166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19479166" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
@@ -753,7 +705,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="add mybaits" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mybaits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhiren-business/src/main/java/zhiren/serviceImpl/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -943,6 +889,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhiren-api/src/main/java/zhiren/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
