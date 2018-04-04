@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zhirenapi" />
-        <module name="zhirenbusiness" />
-        <module name="zhirenweb" />
+        <module name="zhiren-api" />
+        <module name="zhiren-business" />
+        <module name="zhiren-web" />
       </profile>
     </annotationProcessing>
   </component>

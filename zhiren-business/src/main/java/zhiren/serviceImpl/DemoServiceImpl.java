@@ -22,7 +22,7 @@ public class DemoServiceImpl implements DemoService {
         dd.setCode("12");
         dd.setName("2131");
         demoMapper.insert(dd);
-        int i = 1 / 0;
+        //int i = 1 / 0;
         dd.setId(2);
         dd.setCode("12");
         dd.setName("2131");

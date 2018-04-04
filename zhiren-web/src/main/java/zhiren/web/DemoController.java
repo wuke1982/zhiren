@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import zhiren.dto.BaseRespDTO;
+import zhiren.dto.ResultStatus;
 import zhiren.service.DemoService;
 
 /**
@@ -28,8 +30,8 @@ public class DemoController {
     @ApiOperation(value="获取用户详细信息", notes="根据url的id来获取用户详细信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
     @RequestMapping(value = "/saveUserInfo",method = RequestMethod.GET)
-    public String saveUserInfo(Integer id){
+    public BaseRespDTO<String> saveUserInfo(Integer id){
         demoService.demo();
-        return "123213213";
+        return new BaseRespDTO(ResultStatus.SUCCESS.getErrorCode(),"ok","hahhahah");
     }
 }
