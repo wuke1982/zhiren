@@ -11,6 +11,8 @@ import zhiren.dto.BaseRespDTO;
 import zhiren.dto.ResultStatus;
 import zhiren.service.DemoService;
 
+import java.util.concurrent.CompletableFuture;
+
 /**
  * @author zh
  * @ClassName zhiren.web.DemoController
@@ -30,8 +32,10 @@ public class DemoController {
     @ApiOperation(value="获取用户详细信息", notes="根据url的id来获取用户详细信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
     @RequestMapping(value = "/saveUserInfo",method = RequestMethod.GET)
-    public BaseRespDTO<String> saveUserInfo(Integer id){
-        demoService.demo();
-        return new BaseRespDTO(ResultStatus.SUCCESS.getErrorCode(),"ok","hahhahah");
+    public CompletableFuture<BaseRespDTO<String>> saveUserInfo(Integer id){
+        return  CompletableFuture.supplyAsync(() -> {
+            demoService.demo();
+            return new BaseRespDTO(ResultStatus.SUCCESS.getErrorCode(),"ok","hahhahah");
+        });
     }
 }

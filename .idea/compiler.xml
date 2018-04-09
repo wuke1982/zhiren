@@ -9,6 +9,9 @@
         <module name="zhiren-api" />
         <module name="zhiren-business" />
         <module name="zhiren-web" />
+        <module name="zhirenapi" />
+        <module name="zhirenbusiness" />
+        <module name="zhirenweb" />
       </profile>
     </annotationProcessing>
   </component>
